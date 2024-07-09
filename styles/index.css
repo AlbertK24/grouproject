@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+.header{
+    width: 90%;
+    height: 60px;
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+
+.header .logo-and-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    margin-right: -150px;
+
+    
+    }
+
+
+.header .logo-and-links .logo{
+    width: 30px;
+    height: 25%;
+}
+
+
+.header .logo-and-links .links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
+    margin-left: -100px;
+    
+    
+    
+}
+
+
+header .logo-and-links .links a{
+  color: black;
+  text-decoration: none;
+
+}
+
+
+.header .icons{
+   
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+
+.header .icons img{
+    width: 30px;
+    height: 30px;
+   
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button{
+    background-color: orange;
+    
+}
+
+
+
+.footer{
+    background-color: blue ;
+    width: 100%;
+    height: 20px;
+}
