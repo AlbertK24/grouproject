@@ -1,11 +1,13 @@
-body{
+body {
     margin: 0px;
     box-sizing: border-box;
     padding: 0px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header{
+.header {
     width: 90%;
     height: 60px;
     margin: 5%;
@@ -14,10 +16,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
- }
+}
 
-
-.header .logo-and-links{
+.header .logo-and-links {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -25,84 +26,72 @@ body{
     height: 100%;
     position: absolute;
     margin-right: -150px;
-
-    
-    }
-
-
-.header .logo-and-links .logo{
-    width: 30px;
-    height: 25%;
 }
 
+.header .logo-and-links .logo {
+    width: 30px;
+    height: 25%;
+    display: flex;
+}
 
-.header .logo-and-links .links{
+.header .logo-and-links .links {
     display: flex;
     flex-direction: row;
     gap: 40px;
     position: absolute;
     margin-left: -100px;
-    
-    
-    
 }
 
-
-header .logo-and-links .links a{
-  color: black;
-  text-decoration: none;
-
+header .logo-and-links .links a {
+    color: black;
+    text-decoration: none;
 }
 
-
-.header .icons{
-   
+.header .icons {
     height: 10px;
     display: flex;
     flex-direction: row;
     margin-right: 10px;
     gap: 10px;
     align-items: center;
-   
 }
 
-
-.header .icons img{
+.header .icons img {
     width: 30px;
     height: 30px;
-   
 }
 
-.banner{
+.banner {
     width: 100%;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    align-items: center;
 }
 
-.banner div{
+.banner div {
     position: absolute;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.button{
+.button {
     background-color: orange;
-    
 }
 
-
-
-.footer{
-    background-color: blue ;
+.footer {
+    background-color: blue;
     width: 100%;
     height: 20px;
+    align-items: center;
 }
