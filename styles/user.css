@@ -1,45 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
 
-  .container {
-    background-color: #0072C6;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+        .container {
+            background-color: #0072C6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            text-align: center;
+            
+        }
 
-  .header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
 
-  .feedback-text {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
+        .header .links{
+            text-align: center;
+            justify-content: space-between;
+        }
 
-  .review-box {
-    background-color: #ffeb3b;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
+        .feedback-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
 
-  .rating {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+        .review-box {
+            background-color: #ffeb3b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
 
-  .submit-button {
-    background-color: red;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+        .rating {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .submit-button {
+            background-color: red;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+ 
