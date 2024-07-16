@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/appoint.css">
     <title>Appointment</title>
+
+    <style>
+    body {
+        background-image: url("appointment2.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
 </head>
 <body>
-  <div class="header">
+   <section class="header">
+  <div class="links">
   <a href="index.html">Home</a>
   <a href="aboutus.html">About Us</a>
   <a href="user.html">User</a>
@@ -16,7 +25,7 @@
   <a href="trouble.html">Troubleshooting</a>
   <a href="login.html">Login</a>
   </div>
-
+   </section>
 
      <header class="header">
           <nav>
@@ -32,6 +41,9 @@
         <section class="banner">
           <h1>Appointment Scheduling</h1>
           <img src="groupproject/appointment.png">
+
+          
+         
           
           <p>Set a date and visit our website or call our customer service hotline to initiate the appointment process.</p>
           </section>
@@ -40,11 +52,19 @@
           <div class="container">
             <h2></h2>
             <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
               <label for="email">Email or Phone:</label>
               <input type="text" id="email" name="email" required>
       
               <label for="password">Password:</label>
               <input type="password" id="password" name="password" required>
+
+              <label for="dates">Dates:</label>
+              <input type="text" id="dates" name="dates" required>
+              <label for="location">Location:</label>
+  
       
               <button type="submit">Set Appointment</button>
             </form>
@@ -58,24 +78,13 @@
 
 
 
+      <footer class="footer">
+        <p>Customer Service Hotline. All rights reserved.</p>
+      </footer>
       
-        <footer>
-          <p> Customer Service Hotline. All rights reserved.</p>
-        </footer>
 
      
-      </html>
+      
 </html>
 
 
-<body>
- 
-
-     
-
-    <footer>
-      <p>Customer Service Hotline. All rights reserved.</p>
-    </footer>
-  </div>
-</body>
-</html>

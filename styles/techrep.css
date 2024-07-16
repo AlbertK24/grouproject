@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: antiquewhite;
 }
 
 .container {
@@ -16,6 +17,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
+
+}
+
+
+.content-img{
+
+}
+
+.context-text{
+
+
+}
+
+
+
+
+.banner img{
+  width: 60px;
+  height: 70px;
 }
 
 .login-section {
