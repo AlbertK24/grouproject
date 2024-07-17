@@ -54,12 +54,13 @@ margin-left: 5%;
 }
 
 .about-us{
-
+border-radius: 10px;
 }
 
 .about-us .image{
 background-color: blue;
 width:5%
+
 
 }
 
@@ -70,7 +71,20 @@ border-radius: 45px;
 
 }
 
-.products{
+.product-list{
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 10px;
+
+}
+
+.product-item{
+font-weight: 100;
+width: 75%;
+}
+
+.product-item img{
+border-radius: 30px;
 
 }
 
@@ -79,15 +93,18 @@ border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: blue;
+  gap: 10px;
+  background-color:blue;
   color: #fff;
 
 }
 
 .container2 .feature{
-  width: 90%;
+  width: 75%;
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
 
 }
 
@@ -104,6 +121,9 @@ border-radius: 45px;
   justify-content: space-around;
   margin: 20px;
   border-radius: 20px;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: blue;
 }
 
 .images-section img {
@@ -126,5 +146,5 @@ li {
 .footer{
   background-color: blue;
   width: 100%;
-  height: 10px;
+  height: 60px;
 }

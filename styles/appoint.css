@@ -6,7 +6,7 @@ body {
  justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: blue;
+  background: linear-gradient(to right, #584cff, #e100ff);
   color: #fff;
   
 }
@@ -21,6 +21,14 @@ body {
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+.appointment{
+  width: 100%;
+  background-color: white;
+  color: black;
+  align-content: center;
+  border-radius: 10px;
 }
 
 .container {
@@ -54,6 +62,7 @@ body {
   flex-direction: row;
   gap: 40px;
   justify-content: space-between;
+  
 }
 
 header .logo-and-links .links a {
@@ -90,7 +99,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  
 }
 
 
